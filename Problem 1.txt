@@ -1,0 +1,6 @@
+Problem 1: Consider a binary heap. We have a method that print the keys as encountered
+in a preorder traversal. Is the output sorted? Justify your answer Attempt the same
+question for inorder and postorder traversals. 
+
+If the binary heap is sorted from left to right as least to greatest with no duplicates, 
+then it would be sorted if it were printed in preorder. All other cases would be unsorted.

@@ -1,0 +1,10 @@
+Problem 2: Propose an algorithm to find all nodes less than some value X in a binary min
+heap. Analyze its complexity.
+The run time complexity would be O(n)
+Worst case: When every node is smaller than x, because
+
+Algorithm:
+Start at the top(root) of the heap.
+if node value >= x, exit 
+if value of root < x, print value
+Call the method(recurssion) through for both it's left and right child.
